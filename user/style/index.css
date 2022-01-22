@@ -1,0 +1,102 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+.first-view{
+    position: relative;
+    height: 70vh;
+}
+.first-view img{
+    position: absolute;
+    height: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+header{
+    font-family: 'montserrat', sans-serif;
+    line-height: 70px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(150deg, lightskyblue 50%, #ff465b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main{
+    margin-top: 35%;
+    width: 100%;
+    font-family: 'montserrat', sans-serif;
+    line-height: 70px;
+    font-size: 40px;
+    overflow-y: unset;
+    overflow-x: unset;
+}
+main .simple{
+    background: -webkit-linear-gradient(145deg, lightskyblue, #ff465b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+article{
+    margin-top: 80px;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #ff465b;
+}
+article .box{
+    width: 90%;
+    padding: 4%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #f5f5f5;
+    border-radius: 20px;
+}
+article section p{
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.listing{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.listing ul{
+    padding-inline-start: 0;
+    padding: 0;
+    margin-left: 0;
+}
+.listing ul li{
+    list-style: none;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.listing ul li h4, span{
+    line-height: initial;
+}
+.listing span{
+    font-size: 16px;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+    .first-view{
+        height: 100vh;
+    }
+    main{
+        margin-top: 10%;
+    }
+    article .box{
+        width: 22%;
+        display: inline-block;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .listing ul li{
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

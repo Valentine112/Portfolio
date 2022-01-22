@@ -1,0 +1,21 @@
+{
+    "name": "mac/mall",
+    "description": "A shopping website which brings people a little tighter",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "workerman/phpsocket.io": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mac\\Mall\\": "src/",
+            "App\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valentine",
+            "email": "valenny112@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../src/fonts/Montserrat/Montserrat-Bold.eot');
+  src: url('../../src/fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+      url('../../src/fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+      url('../../src/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'),
+      url('../../src/fonts/Montserrat/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.eot');
+  src: url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.woff2') format('woff2'),
+      url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.woff') format('woff'),
+      url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.ttf') format('truetype'),
+      url('../../src/fonts/NotoSansJP/NotoSansJP-Light-Alphabetic.svg#NotoSansJP-Light-Alphabetic') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../src/fonts/Open Sans/OpenSans-Light.eot');
+  src: url('../../src/fonts/Open Sans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Open Sans/OpenSans-Light.woff2') format('woff2'),
+      url('../../src/fonts/Open Sans/OpenSans-Light.woff') format('woff'),
+      url('../../src/fonts/Open Sans/OpenSans-Light.ttf') format('truetype'),
+      url('../../src/fonts/Open Sans/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../src/fonts/Poppins/Poppins-Regular.eot');
+  src: url('../../src/fonts/Poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+      url('../../src/fonts/Poppins/Poppins-Regular.woff') format('woff'),
+      url('../../src/fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+      url('../../src/fonts/Poppins/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fredericka';
+  src: url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.eot');
+  src: url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.woff2') format('woff2'),
+      url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.woff') format('woff'),
+      url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.ttf') format('truetype'),
+      url('../../src/fonts/FederickatheGreat/FrederickatheGreat-Regular.svg#FrederickatheGreat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niconne';
+  src: url('../../src/fonts/Niconne/Niconne-Regular.eot');
+  src: url('../../src/fonts/Niconne/Niconne-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Niconne/Niconne-Regular.woff2') format('woff2'),
+      url('../../src/fonts/Niconne/Niconne-Regular.woff') format('woff'),
+      url('../../src/fonts/Niconne/Niconne-Regular.ttf') format('truetype'),
+      url('../../src/fonts/Niconne/Niconne-Regular.svg#Niconne-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sacramento';
+  src: url('../../src/fonts/Sacramento/Sacramento-Regular.eot');
+  src: url('../../src/fonts/Sacramento/Sacramento-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Sacramento/Sacramento-Regular.woff2') format('woff2'),
+      url('../../src/fonts/Sacramento/Sacramento-Regular.woff') format('woff'),
+      url('../../src/fonts/Sacramento/Sacramento-Regular.ttf') format('truetype'),
+      url('../../src/fonts/Sacramento/Sacramento-Regular.svg#Sacramento-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../src/fonts/Roboto/Roboto-Regular.eot');
+  src: url('../../src/fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+      url('../../src/fonts/Roboto/Roboto-Regular.woff') format('woff'),
+      url('../../src/fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+      url('../../src/fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../src/Fonts/SourceSansPro/SourceSansPro-Regular.eot');
+  src: url('../../src//fonts/SourceSansPro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../src/Fonts/SourceSansPro/SourceSansPro-Regular.woff2') format('woff2'),
+      url('../../src/Fonts/SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+      url('../../src/Fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype'),
+      url('../../src/fonts/SourceSansPro/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
