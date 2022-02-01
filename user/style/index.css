@@ -166,10 +166,10 @@ article section p{
     
 }
 .web-desc{
-    display: none;
+    display: block;
 }
 .local-desc{
-    display: block;
+    display: none;
 }
 
 .about-me{
@@ -199,6 +199,7 @@ article section p{
     margin: auto;
     font-family: 'SourceSansPro', sans-serif;
 }
+
 .contact-me{
     margin-top: 15%;
 }
@@ -334,6 +335,9 @@ footer div{
         border-left: 2px solid transparent;
     }
     .web-desc{
+        display: block;
+    }
+    .local-desc{
         display: block;
     }
     .about-me{

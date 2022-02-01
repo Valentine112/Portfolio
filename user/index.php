@@ -101,8 +101,8 @@
 
         <div class="projects">
             <div class="project-head">
-                <h4>Website</h4>
-                <h4>Local Projects</h4>
+                <h4 onclick="web(this)">Website</h4>
+                <h4 onclick="local(this)">Local Projects</h4>
             </div>
             <div class="website project-cont">
                 <div class="web-desc">
@@ -205,4 +205,5 @@
         </footer>
     </div>
 </body>
+<script src="../src/js/index.js"></script>
 </html>
