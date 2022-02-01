@@ -30,10 +30,10 @@
                     <div>
                         <h3>What We Do</h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque voluptatem fugit deserunt quibusdam eveniet, necessitatibus error quia, iusto quaerat sequi, tenetur nesciunt eligendi id laudantium consequatur neque minima corporis odio.
+                            We SimpBuild create all types of website for you or your company. We do not just do it like everyone does, we make make sure your website has what it takes to gather a lot of traffic that stays! by giving your website a modern, decent and clean look.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus assumenda ducimus, autem sapiente minus aperiam provident ullam explicabo facilis suscipit atque debitis maxime, veritatis nemo fugiat excepturi vero labore. Perspiciatis.
+                            We know just how hard it is to build something that looks simple but yet does the necessary task. As you know, the highest difficulty is simplicity which is why a lot of platforms end up packing a lot of unnecessary contents to the screen. But we don't do that, we show what needs to be shown.
                         </p>
                     </div>
                 </section>
@@ -41,12 +41,12 @@
                 <section class="box">
                     <img src="../src/shapes/splash-1.png" alt="">
                     <div>
-                        <h3>What We Do</h3>
+                        <h3>The Process</h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque voluptatem fugit deserunt quibusdam eveniet, necessitatibus error quia, iusto quaerat sequi, tenetur nesciunt eligendi id laudantium consequatur neque minima corporis odio.
+                            Firstly, we get to talk to you about what you want your website to look like and also what you want your website to do. If you have any example, you can show us or we could just build something from scratch for you, where you would get to monitor every process.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus assumenda ducimus, autem sapiente minus aperiam provident ullam explicabo facilis suscipit atque debitis maxime, veritatis nemo fugiat excepturi vero labore. Perspiciatis.
+                            Every website has or should have a logo, it's a graphical representative of what your website is all about. And the best part of all this is that you don't have to go to an external source to get one. We would also take care of this for you. We would give you high quality logo pictures and the freedom to remodify it if you do not like it.
                         </p>
                     </div>
                 </section>
@@ -54,12 +54,19 @@
                 <section class="box">
                     <img src="../src/shapes/splash-2.png" alt="">
                     <div>
-                        <h3>What We Do</h3>
+                        <h3>The Approach</h3>
+                        <p>This involves all the steps that would be taken inorder for us to reach an agreement. This is just a formal step which has to be taken in order for us to build the perfect website for you that you would feel comfortable and satisfied with.</p>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque voluptatem fugit deserunt quibusdam eveniet, necessitatibus error quia, iusto quaerat sequi, tenetur nesciunt eligendi id laudantium consequatur neque minima corporis odio.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus assumenda ducimus, autem sapiente minus aperiam provident ullam explicabo facilis suscipit atque debitis maxime, veritatis nemo fugiat excepturi vero labore. Perspiciatis.
+                            <ol>
+                                <li>Conversation with the client</li>
+                                <li>Qualities of the website</li>
+                                <li>Breakdown of the job</li>
+                                <li>Necessity</li>
+                                <li>Duration</li>
+                                <li>Decision</li>
+                                <li>Additional notes</li>
+                                <li>Conclusion</li>
+                            </ol>
                         </p>
                     </div>
                 </section>
@@ -151,7 +158,7 @@
             <h1>About me</h1>
             <div class="my-header">
                 <img src="../src/files/me.jpeg" alt="">
-                <h3>Ngene Valentine <br><small>Fullstack web developer</small></h3>
+                <h3>Ngene Valentine <br><small>Fullstack Developer</small></h3>
             </div>
             <div class="my-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere error sunt, aliquid impedit possimus rerum obcaecati delectus dolore minus nostrum ipsa perferendis excepturi maiores repellat ut. Ea exercitationem harum similique!
@@ -165,17 +172,19 @@
         <div class="contact-me headings">
             <h1>Contact me</h1>
             <div>
-                <form action="" method="post">
-                    <input type="text" class="form" placeholder="Full name" required name="" id="">
-                    <input type="email" class="form" placeholder="Email address" required name="" id="">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message . . ." required></textarea>
+                <form action="" method="post" onsubmit="direct(this, event)">
+                    <p class="success-mssg">Message sent successfully</p>
+                    <p class="failed-mssg">Message failed to send . . . Please try again later or send a message via WhatsApp or Facebook</p>
+                    <input type="text" class="form" placeholder="Full name" required name="name" id="name" value="Ngene Valentine">
+                    <input type="email" class="form" placeholder="Email address" required name="email" id="email" value="valenny112@gmail.com">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="message . . ." required></textarea>
                     <div class="suggest">
                         <small>suggestions</small><br>
-                        <q>Can you build a website for me?</q>
-                        <q>Do you work remotely?</q>
-                        <q>How long would it take to build a website for me?</q>
+                        <q onclick="suggest(this)">Can you build a website for me?</q>
+                        <q onclick="suggest(this)">Do you work remotely?</q>
+                        <q onclick="suggest(this)">How long would it take to build a website for me?</q>
                     </div>
-                    <button>Send</button>
+                    <button><span>Send</span> <div></div></button>
                 </form>
             </div>
         </div>
