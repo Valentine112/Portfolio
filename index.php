@@ -1,12 +1,12 @@
-<?php include "template/header.html"; ?>
+<?php include "user/template/header.html"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/fonts.css">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="user/style/fonts.css">
+    <link rel="stylesheet" href="user/style/index.css">
     <title>Simplethings</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         <article>
             <div>
                 <section class="box">
-                    <img src="../src/shapes/splash.png" alt="">
+                    <img src="src/shapes/splash.png" alt="">
                     <div>
                         <h3>What We Do</h3>
                         <p>
@@ -39,7 +39,7 @@
                 </section>
 
                 <section class="box">
-                    <img src="../src/shapes/splash-1.png" alt="">
+                    <img src="src/shapes/splash-1.png" alt="">
                     <div>
                         <h3>The Process</h3>
                         <p>
@@ -52,7 +52,7 @@
                 </section>
 
                 <section class="box">
-                    <img src="../src/shapes/splash-2.png" alt="">
+                    <img src="src/shapes/splash-2.png" alt="">
                     <div>
                         <h3>The Approach</h3>
                         <p>This involves all the steps that would be taken inorder for us to reach an agreement. This is just a formal step which has to be taken in order for us to build the perfect website for you that you would feel comfortable and satisfied with.</p>
@@ -75,28 +75,28 @@
             <section class="listing">
                 <ul>
                     <li>
-                        <img src="../src/png/modern-art.png" alt="">
+                        <img src="src/png/modern-art.png" alt="">
                         <h4>Modern & Clean Design</h4>
                         <span>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reiciendis, fuga blanditiis distinctio in at temporibus, sed nostrum amet similique
                         </span>
                     </li>
                     <li>
-                        <img src="../src/png/responsive-website.png" alt="">
+                        <img src="src/png/responsive-website.png" alt="">
                         <h4>Responsive Design</h4>
                         <span>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reiciendis, fuga blanditiis distinctio in at temporibus, sed nostrum amet similique
                         </span>
                     </li>
                     <li>
-                        <img src="../src/png/vulnerable-individuals.png" alt="">
+                        <img src="src/png/vulnerable-individuals.png" alt="">
                         <h4>Strong Security</h4>
                         <span>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reiciendis, fuga blanditiis distinctio in at temporibus, sed nostrum amet similique
                         </span>
                     </li>
                     <li>
-                        <img src="../src/png/process.png" alt="">
+                        <img src="src/png/process.png" alt="">
                         <h4>Consistency</h4>
                         <span>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reiciendis, fuga blanditiis distinctio in at temporibus, sed nostrum amet similique
@@ -117,14 +117,14 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus assumenda sequi molestias et voluptatibus earum voluptate aliquam soluta at, nostrum nesciunt modi dolore quia quos fuga? Iste, magni cum?
                     </p>
                     <br>             
-                    <img src="../src/files/macro WEB logoAsset 2.png" alt="">
+                    <img src="src/files/macro WEB logoAsset 2.png" alt="">
 
                     <h5><a href="https:\\quandaryvisions.com" target="_blank">Quandaryvisions</a></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum unde corporis cupiditate corrupti facere sint, beatae recusandae rerum accusamus. Aut voluptas dolorum eaque deserunt iure necessitatibus molestiae fugit expedita enim.
                     </p>
                     <br>
-                    <img src="../src/files/quandary_logo.png" alt="">
+                    <img src="src/files/quandary_logo.png" alt="">
                 </div>
             </div>
             <div class="local project-cont">
@@ -157,7 +157,7 @@
         <div class="about-me headings">
             <h1>About me</h1>
             <div class="my-header">
-                <img src="../src/files/me.jpeg" alt="">
+                <img src="src/files/me.jpeg" alt="">
                 <h3>Ngene Valentine <br><small>Fullstack Developer</small></h3>
             </div>
             <div class="my-desc">
@@ -194,25 +194,26 @@
                 Location: Nigeria, Imo state, Owerri west
                 <br>
                 <span>
-                    <img src="../src/social/ig.svg" alt="Instagram"> - <a href="https:\\instagram.com\val_clouds" target="_blank">Val_clouds</a> &ensp;
+                    <img src="src/social/ig.svg" alt="Instagram"> - <a href="https:\\instagram.com\val_clouds" target="_blank">Val_clouds</a> &ensp;
                 </span>
 
                 <span>
-                    <img src="../src/social/fb.svg" alt="Facebook"> - <a href="https:\\facebook.com/ngene.valentine.54" target="_blank">Ngene Valentine</a> &ensp;
+                    <img src="src/social/fb.svg" alt="Facebook"> - <a href="https:\\facebook.com/ngene.valentine.54" target="_blank">Ngene Valentine</a> &ensp;
                 </span>
 
                 <span>
-                    <img src="../src/social/tw.svg" alt=""> - <a href="https:\\twitter.com/Himself_xx" target="_blank">Himself_xx</a> &ensp;
+                    <img src="src/social/tw.svg" alt=""> - <a href="https:\\twitter.com/Himself_xx" target="_blank">Himself_xx</a> &ensp;
                 </span>
 
                 <span>
-                    <img src="../src/social/wa.svg" alt="WhatsApp"> - <a href="https://wa.me/2347018208311" target="_blank">Valentine</a> &ensp;
+                    <img src="src/social/wa.svg" alt="WhatsApp"> - <a href="https://wa.me/2347018208311" target="_blank">Valentine</a> &ensp;
                 </span>
                 <br>
                 <div class="copy">Copyright 2022</div>
             </div>
         </footer>
     </div>
+<script src="//code.tidio.co/1inmczah5i3skc9mpzayd600u7am4225.js" async></script>
 </body>
-<script src="../src/js/index.js"></script>
+<script src="src/js/index.js"></script>
 </html>

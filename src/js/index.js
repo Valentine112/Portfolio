@@ -44,7 +44,7 @@ function direct(self, ev) {
 
     ajax_request.upload.addEventListener("progress", progressHandler, false);
     ajax_request.addEventListener("load", completeHandler, false)
-    ajax_request.open("POST", "php/contact.php", true);
+    ajax_request.open("POST", "user/php/contact.php", true);
     ajax_request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     ajax_request.send(url);
 }
@@ -60,6 +60,8 @@ function completeHandler(ev) {
     btn_text.style.display = "block"
     btn.removeAttribute("disabled")
     var result = ev.target.responseText
+
+    console.log(result)
 
     if(result === "done") {
         success.style.display = "block"

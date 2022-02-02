@@ -1,7 +1,6 @@
 <?php
     require "../../src/mail/Mailing.php";
     if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])):
-        echo $_POST['name'];
 
         $name = htmlspecialchars(trim(stripslashes($_POST['name'])));
         $email = htmlspecialchars(trim(stripslashes($_POST['email'])));

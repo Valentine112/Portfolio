@@ -4,7 +4,7 @@
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
-    use PHPMailer\PHPMailer\Exception;
+    //use PHPMailer\PHPMailer\Exception;
 
     class Mailing extends PHPMailer{
 
@@ -18,13 +18,13 @@
         }
 
         public function config() {
-            $gmail_id = "Legendstime1@gmail.com";
-            $gmail_pass = "Anthonyval";
+            $gmail_id = "developer@simpbuild.com";
+            $gmail_pass = "Anthonyval1";
             //Server settings
             $this->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $this->isSMTP();                                            // Send using SMTP
             $this->CharSet = "utf-8";
-            $this->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
+            $this->Host       = 'simpbuild.com';                    // Set the SMTP server to send through
             $this->SMTPAuth   = true;                                   // Enable SMTP authentication
             $this->Username   = $gmail_id;                     // SMTP username
             $this->Password   = $gmail_pass;                               // SMTP password
@@ -41,8 +41,8 @@
 
         public function set_params(string $subject) {
             //Recipients
-            $this->setFrom('developer@simpbuild.com', 'Simpbuild');
-            $this->addAddress('valenny115@gmail.com', "Ngene Valentine");     // Add a recipient
+            $this->setFrom($this->email, $this->full_name);
+            $this->addAddress('valentinethedeveloper@gmail.com', "Ngene Valentine");     // Add a recipient
 
             $this->isHTML(true);                                  // Set email format to HTML
             $this->Subject = $subject;
